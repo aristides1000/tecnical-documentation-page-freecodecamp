@@ -19,7 +19,7 @@ The purpose of this project was to demonstrate the knowledge acquired in HTML5 a
 
 ## Live Demo
 
-[Live Demo Link](https://aristides1000.github.io/tribute-page-freecodecamp)
+[Live Demo Link](https://aristides1000.github.io/tecnical-documentation-page-freecodecamp/)
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/aristides1000/tribute-page-freecodecamp/issues).
+Feel free to check the [issues page](https://github.com/aristides1000/tecnical-documentation-page-freecodecamp/issues).
 
 ## Show your support
 
