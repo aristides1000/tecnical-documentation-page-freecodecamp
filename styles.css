@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #525963;
+}
+
+/* screens lower than 810px */
+header h1 {
+  color: black;
+  text-align: center;
+  margin: 0.8rem 0;
+  font-size: 1.8rem;
+}
+
+#navbar ul {
+  height: 13rem;
+  overflow-y: scroll;
+  border: 1px solid #525963;
+  border-bottom: 3px solid #525963;
+}
+
+#navbar ul li {
+  border-top: 1px solid #525963;
+  border-right: 0;
+  padding: 0.8rem 1.9rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+}
+
+.main-section header {
+  color: black;
+  margin: 0.8rem 1.9rem;
+  font-size: 1.8rem;
+}
+
+.main-section p {
+  margin: 0 3rem 1rem;
+}
+
+.main-section ul li {
+  margin: 0 3rem 1rem 7rem;
+}
+
+.main-section ul li::marker {
+  font-size: 0.8rem;
+}
+
+pre, code {
+  font-family: "Courier New";
+  font-size: 0.8rem;
+}
+
+pre {
+  margin: 0 4rem;
+  padding: 1.2rem 1rem;
+  background-color: #F7F7F7;
+  border-radius: 0.35rem;
+}
+
+code {
+  background-color: #F7F7F7;
+  padding:0.25rem 0.5rem;
+  border-radius: 0.35rem;
+}
+
+p a, .main-section li a {
+  color: #070FEF;
+}
+
+p a:visited, .main-section li a:visited {
+  color: #551A8B;
+}
+
+/* screens between 810px or higher */
+@media (min-width: 810px) {
+  body {
+    display: flex;
+  }
+
+  nav {
+    position: fixed;
+    margin-bottom: 0.5rem;
+    width: 19rem;
+    border-right: 3px solid #99A1A1;
+    height: 100%;
+  }
+
+  main {
+    margin-left: 19rem;
+    width: calc(100% - 19rem);
+  }
+
+  #navbar ul {
+    border: none;
+    height: 89%;
+  }
+
+  #main-doc section:first-child {
+    margin-top: 1.75rem;
+  }
+}
